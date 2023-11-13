@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: initial;
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  height: 90px;
+  width: 100vw;
+  position: fixed;
+}
+
+nav {
+  width: 100vw;
+  padding: 15px 0;
+  margin: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  font-size: 1.5rem;
+}
+.icon {
+  margin-left: 20px;
+  font-size: 40px;
+  color: red;
+}
+.name1 {
+  font-size: 2.5rem;
+  letter-spacing: -4px;
+  font-weight: 600;
+}
+.name2 {
+  font-size: 2.5rem;
+  letter-spacing: -4px;
+  font-weight: 600;
+  margin-left: -6px;
+}
+.name3 {
+  font-size: 2.5rem;
+  letter-spacing: -4px;
+  font-weight: 600;
+  margin-left: -6px;
+}
+
+.suplim {
+  margin-top: -25px;
+  font-family: sans-serif;
+}
+
+/* start of search bar from here */
+
+.middle {
+  width: 650px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+.inputbox {
+  height: 30px;
+  width: 600px;
+  min-width: 280px;
+  border-radius: 15px 0 0 15px;
+  display: flex;
+  justify-content: center;
+  padding: 4px 20px;
+  outline: none;
+  border-color: rgba(165, 164, 164, 0.546);
+  font-size: 1.1rem;
+}
+
+.searchlens .searchbtn {
+  width: 60px;
+  height: 45px;
+  margin-left: -2px;
+  background-color: rgb(217, 217, 217);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 15px 15px 0;
+}
+
+.micbtn .mic {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(219, 220, 220, 0.884);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+  border-radius: 50%;
+}
+
+/* right side button */
+.rightbtn {
+  width: 120px;
+  height: 30px;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 66px;
+}
+/* .bellbtn{
+    margin-left: 20px;
+} */
+.bell {
+  display: flex;
+  margin-left: 15px;
+}
+.notify {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-top: -10px;
+  margin-left: -5px;
+}
+
+/* breaking line start */
+
+.hline {
+  color: rgba(225, 225, 225, 0.473);
+}
+
+/* main page start from here */
+
+#leftscreen {
+  height: 84vh;
+  width: 280px;
+  padding: 10px;
+  overflow-y: auto;
+  position: fixed;
+  top: 90px;
+  background-color: white;
+}
+
+.stage1 {
+  height: 120px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.box1 {
+  width: 230px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin: -4px 25px;
+}
+
+.box1 i {
+  font-size: 1.4rem;
+}
+
+#text {
+  margin-left: 30px;
+  font-size: 18px;
+  color: dimgrey;
+}
+
+.stage2 {
+  height: 220px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.stage3 {
+  height: 350px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.live {
+  margin-left: 10px;
+  color: rgb(102, 0, 0);
+}
+
+.stage5 i {
+  color: rgb(190, 2, 2);
+}
+
+/* mainscreen */
+.container {
+  width: 80vw;
+  height: 100vh;
+  position: relative;
+  top: 105px;
+  left: 305px;
+  z-index: -2;
+}
+
+.horzentalbox ul {
+  margin-left: 30px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  scroll-margin-inline-start: 20px;
+  scroll-margin-left: 20px;
+  /* width: 100%; Set the width of the container */
+}
+
+li {
+  width: 30px;
+  height: 40px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: #c0bfbf;
+  font-size: 2rem;
+  padding: 0 20px;
+  margin-left: 10px;
+}
+
+.mainpage {
+  /* background-color: red; */
+  width: 78vw;
+  height: 90vh;
+  margin: 20px 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 370px;
+  flex-wrap: 1px;
+  height: 230px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: chartreuse;
+}
+.pic{
+  width: 200px;
+  height: 30px;
+  background-color: blue;
+}
